@@ -5,8 +5,8 @@
     
     <entry>
       <title>qqq</title>
-      <link href="/zhoumouren/2022/02/25/hhhh/"/>
-      <url>/zhoumouren/2022/02/25/hhhh/</url>
+      <link href="/2022/02/25/hhhh/"/>
+      <url>/2022/02/25/hhhh/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -24,8 +24,8 @@
     
     <entry>
       <title>Hexo个人博客框架搭建</title>
-      <link href="/zhoumouren/2022/02/25/hexo/"/>
-      <url>/zhoumouren/2022/02/25/hexo/</url>
+      <link href="/2022/02/25/hexo/"/>
+      <url>/2022/02/25/hexo/</url>
       
         <content type="html"><![CDATA[<h2 id="一-前言"><a href="#一-前言" class="headerlink" title="一.前言"></a>一.前言</h2><p>使用基于hexo框架的github pages/gitee pages服务搭建博客的好处:</p><ul><li>全是静态文件,访问速度快</li><li>免费,托管在github和gitee不需要后台</li><li>数据安全</li><li>网站内容容易打包、迁移</li></ul><h2 id="二-准备工作"><a href="#二-准备工作" class="headerlink" title="二.准备工作"></a>二.准备工作</h2><ul><li>拥有github账户<ul><li>新建一个<code>username.github.io</code>的仓库，username是你的用户名</li></ul></li><li>安装node.js <a href="http://nodejs.cn/download/">node.js</a> 下载最新版本即可</li><li>安装git <a href="https://git-scm.com/">git</a> 下载最新版本即可</li></ul><h2 id="三-配置SSH密钥"><a href="#三-配置SSH密钥" class="headerlink" title="三.配置SSH密钥"></a>三.配置SSH密钥</h2><ul><li>打开github进入到setting找到SSH and GPG keys一栏<br><img src="https://s3.bmp.ovh/imgs/2022/02/48bd081222b0057a.jpg"></li><li>点进去点击New SSH key 可以看到如下图所示<br><img src="https://gitee.com/zhouzejiang/blogimage/raw/master/img/SSH-2.jpg"><br>然后生成本地密钥,找到<code>.ssh\id_rsa.pub </code> 复制其中的内容到key 添加成功后(其中title随便填)<pre class="line-numbers language-git" data-language="git"><code class="language-git">$ ssh-keygen -t rsa -C <span class="token string">"你的邮箱"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><br></li><li>此时git连接github/gitee 需要配置登录信息,以后就可以不用再配置了<pre class="line-numbers language-git" data-language="git"><code class="language-git"><span class="token command">$ git config<span class="token parameter"> --global</span> user.name </span><span class="token string">"用户名"</span><span class="token command">$ git config<span class="token parameter"> --global</span> user.email </span><span class="token string">"邮箱"</span> <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li></ul><h2 id="四-Hexo"><a href="#四-Hexo" class="headerlink" title="四.Hexo"></a>四.Hexo</h2><h3 id="1-简介"><a href="#1-简介" class="headerlink" title="1.简介"></a>1.简介</h3><p>Hexo是一个简单、快速、强大的基于 Github Pages/Gitee Pages 的博客发布工具，支持Markdown格式，有众多优秀插件和主题</p><h3 id="2-安装"><a href="#2-安装" class="headerlink" title="2.安装"></a>2.安装</h3><p>安装的位置可以自己选择</p><pre class="line-numbers language-git" data-language="git"><code class="language-git">$ npm install -g hexo<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="3-初始化"><a href="#3-初始化" class="headerlink" title="3.初始化"></a>3.初始化</h3><pre class="line-numbers language-git" data-language="git"><code class="language-git">$ hexo init<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="4-生成并启动"><a href="#4-生成并启动" class="headerlink" title="4.生成并启动"></a>4.生成并启动</h3><pre class="line-numbers language-git" data-language="git"><code class="language-git">$ hexo g #生成$ hexo s #启动<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p>此时能看到如图所示(这里一开始是默认主题,比较简陋):<br><img src="https://gitee.com/zhouzejiang/blogimage/raw/master/img/hexo-s.jpg"></p><h3 id="5-部署到Github-Pages上"><a href="#5-部署到Github-Pages上" class="headerlink" title="5.部署到Github Pages上"></a>5.部署到Github Pages上</h3><pre class="line-numbers language-git" data-language="git"><code class="language-git">$ hexo clean$ hexo g$ hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><p>如果部署成功的话你将能看到<code>你的用户名.github.io</code>上网页内容有更新<br>但是github国内访问部署有时候偏慢,这里可以考虑gitee,流程类似</p><h2 id="五-主题"><a href="#五-主题" class="headerlink" title="五.主题"></a>五.主题</h2><p>目前比较多人用的主题在github有next、butterfly等等,这两个主题都有比较具体的说明文档，在这里就不再介绍<br><a href="https://github.com/iissnan/hexo-theme-next">next主题文档说明</a><br><a href="https://butterfly.js.org/posts/21cfbf15/">butterfly主题文档说明</a><br>也可以自己寻找适合自己审美的主题，这些文档说明基本可以满足网页设计的基本需求</p><h2 id="六-优质视频"><a href="#六-优质视频" class="headerlink" title="六.优质视频"></a>六.优质视频</h2><p>这里贴出两个不错并且适合萌新的视频：<br><a href="https://www.bilibili.com/video/BV1cv411N7kz?p=1">Hexo还是Hugo？Typecho还是Wordpress？</a><br><a href="https://www.bilibili.com/video/BV16W411t7mq?spm_id_from=333.788.top_right_bar_window_default_collection.content.click">使用Hexo博客搭建的个人博客，使用Next主题来进行优化改造</a></p>]]></content>
       
@@ -55,8 +55,8 @@
     
     <entry>
       <title>test</title>
-      <link href="/zhoumouren/2022/02/19/test/"/>
-      <url>/zhoumouren/2022/02/19/test/</url>
+      <link href="/2022/02/19/test/"/>
+      <url>/2022/02/19/test/</url>
       
         <content type="html"><![CDATA[<h2 id="我是用来测试的"><a href="#我是用来测试的" class="headerlink" title="我是用来测试的"></a>我是用来测试的</h2>]]></content>
       
