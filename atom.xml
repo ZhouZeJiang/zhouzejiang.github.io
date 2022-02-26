@@ -3,11 +3,11 @@
   <title>ヅツツ</title>
   
   <subtitle>  </subtitle>
-  <link href="https://zhouzejiang.gitee.io/atom.xml" rel="self"/>
+  <link href="https://zhouzejiang.github.io/atom.xml" rel="self"/>
   
-  <link href="https://zhouzejiang.gitee.io/"/>
+  <link href="https://zhouzejiang.github.io/"/>
   <updated>2022-02-26T18:54:30.177Z</updated>
-  <id>https://zhouzejiang.gitee.io/</id>
+  <id>https://zhouzejiang.github.io/</id>
   
   <author>
     <name>zhoumouren</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Markdown基本语法</title>
-    <link href="https://zhouzejiang.gitee.io/2022/02/27/markdown/"/>
-    <id>https://zhouzejiang.gitee.io/2022/02/27/markdown/</id>
+    <link href="https://zhouzejiang.github.io/2022/02/27/markdown/"/>
+    <id>https://zhouzejiang.github.io/2022/02/27/markdown/</id>
     <published>2022-02-27T04:25:07.000Z</published>
     <updated>2022-02-26T18:54:30.177Z</updated>
     
@@ -34,19 +34,19 @@
     
     
     
-    <category term="markdown" scheme="https://zhouzejiang.gitee.io/categories/markdown/"/>
+    <category term="markdown" scheme="https://zhouzejiang.github.io/categories/markdown/"/>
     
     
-    <category term="markdown" scheme="https://zhouzejiang.gitee.io/tags/markdown/"/>
+    <category term="markdown" scheme="https://zhouzejiang.github.io/tags/markdown/"/>
     
-    <category term="picgo" scheme="https://zhouzejiang.gitee.io/tags/picgo/"/>
+    <category term="picgo" scheme="https://zhouzejiang.github.io/tags/picgo/"/>
     
   </entry>
   
   <entry>
     <title>C++ 入门</title>
-    <link href="https://zhouzejiang.gitee.io/2022/02/25/C++/"/>
-    <id>https://zhouzejiang.gitee.io/2022/02/25/C++/</id>
+    <link href="https://zhouzejiang.github.io/2022/02/25/C++/"/>
+    <id>https://zhouzejiang.github.io/2022/02/25/C++/</id>
     <published>2022-02-25T11:13:13.000Z</published>
     <updated>2022-02-26T18:20:30.190Z</updated>
     
@@ -54,14 +54,14 @@
     
     
     
-    <category term="C++" scheme="https://zhouzejiang.gitee.io/tags/C/"/>
+    <category term="C++" scheme="https://zhouzejiang.github.io/tags/C/"/>
     
   </entry>
   
   <entry>
     <title>Hexo个人博客框架搭建</title>
-    <link href="https://zhouzejiang.gitee.io/2022/02/25/hexo/"/>
-    <id>https://zhouzejiang.gitee.io/2022/02/25/hexo/</id>
+    <link href="https://zhouzejiang.github.io/2022/02/25/hexo/"/>
+    <id>https://zhouzejiang.github.io/2022/02/25/hexo/</id>
     <published>2022-02-24T16:00:00.000Z</published>
     <updated>2022-02-26T14:57:12.862Z</updated>
     
@@ -76,16 +76,16 @@
     
     
     
-    <category term="hexo" scheme="https://zhouzejiang.gitee.io/categories/hexo/"/>
+    <category term="hexo" scheme="https://zhouzejiang.github.io/categories/hexo/"/>
     
     
-    <category term="hexo" scheme="https://zhouzejiang.gitee.io/tags/hexo/"/>
+    <category term="hexo" scheme="https://zhouzejiang.github.io/tags/hexo/"/>
     
-    <category term="git" scheme="https://zhouzejiang.gitee.io/tags/git/"/>
+    <category term="git" scheme="https://zhouzejiang.github.io/tags/git/"/>
     
-    <category term="node.js" scheme="https://zhouzejiang.gitee.io/tags/node-js/"/>
+    <category term="node.js" scheme="https://zhouzejiang.github.io/tags/node-js/"/>
     
-    <category term="github" scheme="https://zhouzejiang.gitee.io/tags/github/"/>
+    <category term="github" scheme="https://zhouzejiang.github.io/tags/github/"/>
     
   </entry>
   
