@@ -1740,22 +1740,21 @@ thead {
 
 /*尾部样式*/
 footer {
-    padding-bottom: 5px;
-    position: relative;
+    padding-bottom: 1px;
+  
 }   
 
 footer .social-statis {
-   margin-top: 5px;
+   margin-top: 10px;
     position:relative;
 }
 
 footer a {
-    text-align: center;
     color: #fff;
 }
 
 footer .copy-right {
-    text-align: center;
+   
     color: #736d81;
     
 }
