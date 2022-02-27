@@ -197,7 +197,7 @@ kbd {
     font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
     font-size: 0.9rem;
     font-weight: 600;
-    background-color: #f8f8f8;
+    background-color: #cfbcbc;
     color: #34495e;
     line-height: 1.8rem;
     white-space: nowrap;
@@ -374,7 +374,7 @@ header .side-nav .social-link {
 }
 
 .cover-btns a {
-    margin: 10px 15px;
+    margin: 10px 20px;
     padding: 0 35px;
     height: 45px;
     line-height: 45px;
@@ -581,10 +581,12 @@ header .go-back i {
 }
 
 .bg-cover .description {
-    font-weight: 200;
+    font-weight:200;
     font-size: 1.7rem;
+    
     line-height: 1.0em;
-    color: rgb(248, 248, 252)
+    color: rgba(36, 30, 37)
+
 }
 
 .bg-cover .post-title {
@@ -1343,7 +1345,7 @@ thead {
     height: 80px;
     margin: 10px 0 50px -20px;
     padding: 21px 10px;
-    background-color: #9da4e4;
+    background-color: #606063;
     color: #fff;
     font-size: 1.8rem;
     font-weight: 600;
@@ -1359,7 +1361,7 @@ thead {
     height: 60px;
     margin: 10px 0 30px -10px;
     padding: 14px 16px;
-    background-color: #9da4e4;
+    background-color: #606063;
     color: #fff;
     font-size: 1.7rem;
     font-weight: 600;
@@ -1372,7 +1374,7 @@ thead {
 #cd-timeline .day {
     position: relative;
     padding: 8px 10px;
-    background-color: #9da4e4;
+    background-color: #606063;
     color: #fff;
     font-size: 1.2rem;
     font-weight: 500;
