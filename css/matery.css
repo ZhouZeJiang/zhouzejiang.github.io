@@ -379,15 +379,15 @@ header .side-nav .social-link {
     height: 45px;
     line-height: 45px;
     font-size: 1rem;
-    color: #fff;
-    border: 1px solid #fff;
+    color: rgb(252, 248, 248);
+    border: 1px solid rgb(248, 243, 243);
     background-color: transparent;
     border-radius: 30px;
     box-shadow: none;
 }
 
 .cover-btns a:hover {
-    border: 1px solid #c4aaa1;
+    border: 1px solid #997a6f;
     background-color: #ca9696;
     box-shadow: 0 14px 26px -12px rgba(233, 30, 99, 0.42),
     0 4px 23px 0 rgba(0, 0, 0, 0.12),
@@ -1252,7 +1252,7 @@ thead {
     height: 80px;
     margin: 10px 0 50px -20px;
     padding: 21px 10px;
-    background-color: #ff5722;
+    background-color: #9da4e4;
     color: #fff;
     font-size: 1.8rem;
     font-weight: 600;
@@ -1268,7 +1268,7 @@ thead {
     height: 60px;
     margin: 10px 0 30px -10px;
     padding: 14px 16px;
-    background-color: #ef6c00;
+    background-color: #9da4e4;
     color: #fff;
     font-size: 1.7rem;
     font-weight: 600;
@@ -1281,7 +1281,7 @@ thead {
 #cd-timeline .day {
     position: relative;
     padding: 8px 10px;
-    background-color: #ffa726;
+    background-color: #9da4e4;
     color: #fff;
     font-size: 1.2rem;
     font-weight: 500;
