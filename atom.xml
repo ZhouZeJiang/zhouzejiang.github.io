@@ -6,7 +6,7 @@
   <link href="https://zhouzejiang.gitee.io/atom.xml" rel="self"/>
   
   <link href="https://zhouzejiang.gitee.io/"/>
-  <updated>2022-02-26T18:54:30.177Z</updated>
+  <updated>2022-03-01T12:43:42.670Z</updated>
   <id>https://zhouzejiang.gitee.io/</id>
   
   <author>
@@ -17,18 +17,18 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Markdown基本语法</title>
+    <title>Markdown语法</title>
     <link href="https://zhouzejiang.gitee.io/2022/02/27/markdown/"/>
     <id>https://zhouzejiang.gitee.io/2022/02/27/markdown/</id>
     <published>2022-02-27T04:25:07.000Z</published>
-    <updated>2022-02-26T18:54:30.177Z</updated>
+    <updated>2022-03-01T12:43:42.670Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-Markdown基本用法&quot;&gt;&lt;a href=&quot;#1-Markdown基本用法&quot; class=&quot;headerlink&quot; title=&quot;1. Markdown基本用法&quot;&gt;&lt;/a&gt;1. Markdown基本用法&lt;/h2&gt;&lt;h3 id=&quot;1-1-斜体&quot;&gt;&lt;a</summary>
         
       
     
@@ -63,14 +63,14 @@
     <link href="https://zhouzejiang.gitee.io/2022/02/25/hexo/"/>
     <id>https://zhouzejiang.gitee.io/2022/02/25/hexo/</id>
     <published>2022-02-24T16:00:00.000Z</published>
-    <updated>2022-02-26T14:57:12.862Z</updated>
+    <updated>2022-03-01T10:48:34.808Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;一-前言&quot;&gt;&lt;a href=&quot;#一-前言&quot; class=&quot;headerlink&quot; title=&quot;一.前言&quot;&gt;&lt;/a&gt;一.前言&lt;/h2&gt;&lt;p&gt;使用基于hexo框架的github pages/gitee</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;使用基于hexo框架的github pages/gitee</summary>
         
       
     

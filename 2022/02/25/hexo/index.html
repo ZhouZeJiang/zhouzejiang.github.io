@@ -374,21 +374,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-02-26
+                    2022-03-01
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    545
+                    802
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    2 分
+                    3 分
                 </div>
                 
 
@@ -411,14 +411,14 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="一-前言"><a href="#一-前言" class="headerlink" title="一.前言"></a>一.前言</h2><p>使用基于hexo框架的github pages/gitee pages服务搭建博客的好处:</p>
+                <h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>使用基于hexo框架的github pages/gitee pages服务搭建博客的好处:</p>
 <ul>
 <li>全是静态文件,访问速度快</li>
 <li>免费,托管在github和gitee不需要后台</li>
 <li>数据安全</li>
 <li>网站内容容易打包、迁移</li>
 </ul>
-<h2 id="二-准备工作"><a href="#二-准备工作" class="headerlink" title="二.准备工作"></a>二.准备工作</h2><ul>
+<h2 id="2-准备工作"><a href="#2-准备工作" class="headerlink" title="2. 准备工作"></a>2. 准备工作</h2><ul>
 <li>拥有github账户<ul>
 <li>新建一个<code>username.github.io</code>的仓库，username是你的用户名</li>
 </ul>
@@ -426,26 +426,62 @@
 <li>安装node.js <a target="_blank" rel="noopener" href="http://nodejs.cn/download/">node.js</a> 下载最新版本即可</li>
 <li>安装git <a target="_blank" rel="noopener" href="https://git-scm.com/">git</a> 下载最新版本即可</li>
 </ul>
-<h2 id="三-配置SSH密钥"><a href="#三-配置SSH密钥" class="headerlink" title="三.配置SSH密钥"></a>三.配置SSH密钥</h2><ul>
-<li>打开github进入到setting找到SSH and GPG keys一栏<br><img src="https://s3.bmp.ovh/imgs/2022/02/48bd081222b0057a.jpg"></li>
-<li>点进去点击New SSH key 可以看到如下图所示<br><img src="https://gitee.com/zhouzejiang/blogimage/raw/master/img/SSH-2.jpg"><br>然后生成本地密钥,找到<code>.ssh\id_rsa.pub </code> 复制其中的内容到key 添加成功后(其中title随便填)<pre class="line-numbers language-git" data-language="git"><code class="language-git">$ ssh-keygen -t rsa -C <span class="token string">"你的邮箱"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<br></li>
-<li>此时git连接github/gitee 需要配置登录信息,以后就可以不用再配置了<pre class="line-numbers language-git" data-language="git"><code class="language-git"><span class="token command">$ git config<span class="token parameter"> --global</span> user.name </span><span class="token string">"用户名"</span>
-<span class="token command">$ git config<span class="token parameter"> --global</span> user.email </span><span class="token string">"邮箱"</span> <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li>
+<h2 id="3-配置SSH密钥"><a href="#3-配置SSH密钥" class="headerlink" title="3. 配置SSH密钥"></a>3. 配置SSH密钥</h2><ul>
+<li><p>打开github进入到setting找到SSH and GPG keys一栏</p>
+<p>  <img src="https://s3.bmp.ovh/imgs/2022/02/48bd081222b0057a.jpg"></p>
+</li>
+<li><p>点进去点击New SSH key 可以看到如下图所示</p>
+<p>  <img src="https://gitee.com/zhouzejiang/blogimage/raw/master/img/SSH-2.jpg"></p>
+</li>
+<li><p>然后生成本地密钥,找到<code>.ssh\id_rsa.pub </code> 复制其中的内容到key 添加成功后(其中title随便填)</p>
+  <pre class="line-numbers language-none"><code class="language-none">$ ssh-keygen -t rsa -C "你的邮箱"<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
+<li><p>此时git连接github/gitee 需要配置登录信息,以后就可以不用再配置了</p>
+  <pre class="line-numbers language-git" data-language="git"><code class="language-git"><span class="token command">$ git config<span class="token parameter"> --global</span> user.name </span><span class="token string">"用户名"</span>
+<span class="token command">$ git config<span class="token parameter"> --global</span> user.email </span><span class="token string">"邮箱"</span> <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+</li>
 </ul>
-<h2 id="四-Hexo"><a href="#四-Hexo" class="headerlink" title="四.Hexo"></a>四.Hexo</h2><h3 id="1-简介"><a href="#1-简介" class="headerlink" title="1.简介"></a>1.简介</h3><p>Hexo是一个简单、快速、强大的基于 Github Pages/Gitee Pages 的博客发布工具，支持Markdown格式，有众多优秀插件和主题</p>
-<h3 id="2-安装"><a href="#2-安装" class="headerlink" title="2.安装"></a>2.安装</h3><p>安装的位置可以自己选择</p>
+<h2 id="4-Hexo"><a href="#4-Hexo" class="headerlink" title="4. Hexo"></a>4. Hexo</h2><h3 id="4-1-简介"><a href="#4-1-简介" class="headerlink" title="4.1 简介"></a>4.1 简介</h3><p>Hexo是一个简单、快速、强大的基于 Github Pages/Gitee Pages 的博客发布工具，支持Markdown格式，有众多优秀插件和主题</p>
+<h3 id="4-2-安装"><a href="#4-2-安装" class="headerlink" title="4.2 安装"></a>4.2 安装</h3><p>安装的位置可以自己选择</p>
 <pre class="line-numbers language-git" data-language="git"><code class="language-git">$ npm install -g hexo<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<h3 id="3-初始化"><a href="#3-初始化" class="headerlink" title="3.初始化"></a>3.初始化</h3><pre class="line-numbers language-git" data-language="git"><code class="language-git">$ hexo init<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<h3 id="4-生成并启动"><a href="#4-生成并启动" class="headerlink" title="4.生成并启动"></a>4.生成并启动</h3><pre class="line-numbers language-git" data-language="git"><code class="language-git">$ hexo g #生成
+
+<h3 id="4-3-初始化"><a href="#4-3-初始化" class="headerlink" title="4.3 初始化"></a>4.3 初始化</h3><pre class="line-numbers language-git" data-language="git"><code class="language-git">$ hexo init<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h3 id="4-4-生成并启动"><a href="#4-4-生成并启动" class="headerlink" title="4.4 生成并启动"></a>4.4 生成并启动</h3><pre class="line-numbers language-git" data-language="git"><code class="language-git">$ hexo g #生成
 $ hexo s #启动<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-<p>此时能看到如图所示(这里一开始是默认主题,比较简陋):<br><img src="https://gitee.com/zhouzejiang/blogimage/raw/master/img/hexo-s.jpg"></p>
-<h3 id="5-部署到Github-Pages上"><a href="#5-部署到Github-Pages上" class="headerlink" title="5.部署到Github Pages上"></a>5.部署到Github Pages上</h3><pre class="line-numbers language-git" data-language="git"><code class="language-git">$ hexo clean
+
+<p>此时能看到如图所示(这里一开始是默认主题,比较简陋):<img src="https://gitee.com/zhouzejiang/blogimage/raw/master/img/hexo-s.jpg"></p>
+<h3 id="4-5-部署到托管平台上"><a href="#4-5-部署到托管平台上" class="headerlink" title="4.5 部署到托管平台上"></a>4.5 部署到托管平台上</h3><ul>
+<li><p>部署到github pages上，需要在站点配置文件_config.yml中配置：</p>
+<p>  <img src="https://gitee.com/zhouzejiang/blogimage/raw/master/img/master.png"></p>
+</li>
+<li><p>同时部署到gitee pages和github pages上，需要在站点配置文件_config.yml中配置：</p>
+<p>  <img src="https://gitee.com/zhouzejiang/blogimage/raw/master/img/image-20220301172914182.png">   </p>
+</li>
+<li><p>返回git bash上开始部署</p>
+  <pre class="line-numbers language-git" data-language="git"><code class="language-git">$ hexo clean
 $ hexo g
-$ hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<p>如果部署成功的话你将能看到<code>你的用户名.github.io</code>上网页内容有更新<br>但是github国内访问部署有时候偏慢,这里可以考虑gitee,流程类似</p>
-<h2 id="五-主题"><a href="#五-主题" class="headerlink" title="五.主题"></a>五.主题</h2><p>目前比较多人用的主题在github有next、butterfly等等,这两个主题都有比较具体的说明文档，在这里就不再介绍<br><a target="_blank" rel="noopener" href="https://github.com/iissnan/hexo-theme-next">next主题文档说明</a><br><a target="_blank" rel="noopener" href="https://butterfly.js.org/posts/21cfbf15/">butterfly主题文档说明</a><br>也可以自己寻找适合自己审美的主题，这些文档说明基本可以满足网页设计的基本需求</p>
-<h2 id="六-优质视频"><a href="#六-优质视频" class="headerlink" title="六.优质视频"></a>六.优质视频</h2><p>这里贴出两个不错并且适合萌新的视频：<br><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1cv411N7kz?p=1">Hexo还是Hugo？Typecho还是Wordpress？</a><br><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV16W411t7mq?spm_id_from=333.788.top_right_bar_window_default_collection.content.click">使用Hexo博客搭建的个人博客，使用Next主题来进行优化改造</a></p>
+$ hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre></li>
+</ul>
+<p>如果部署成功的话你将能看到<code>你的用户名.github.io</code>上网页内容有更新<br>但是github国内访问部署有时候偏慢,这里可以考虑gitee,流程变通一下即可</p>
+<h2 id="5-主题"><a href="#5-主题" class="headerlink" title="5.主题"></a>5.主题</h2><p>目前比较多人用的主题在github有next、butterfly等等,这两个主题都有比较具体的说明文档，在这里就不再介绍<br><a target="_blank" rel="noopener" href="https://github.com/iissnan/hexo-theme-next">next主题文档说明</a><br><a target="_blank" rel="noopener" href="https://butterfly.js.org/posts/21cfbf15/">butterfly主题文档说明</a><br><a target="_blank" rel="noopener" href="https://github.com/blinkfox/hexo-theme-matery">matery主题文档说明</a><br>也可以自己寻找适合自己审美的主题，这些文档说明基本可以满足网页设计的基本需求</p>
+<h2 id="6-其他补充"><a href="#6-其他补充" class="headerlink" title="6.其他补充"></a>6.其他补充</h2><h3 id="6-1-优质视频"><a href="#6-1-优质视频" class="headerlink" title="6.1 优质视频"></a>6.1 优质视频</h3><p>这里贴出两个不错并且适合萌新的视频：<br><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1cv411N7kz?p=1">Hexo还是Hugo？Typecho还是Wordpress？</a><br><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV16W411t7mq?spm_id_from=333.788.top_right_bar_window_default_collection.content.click">使用Hexo博客搭建的个人博客，使用Next主题来进行优化改造</a></p>
+<h3 id="6-2-好用的壁纸库"><a href="#6-2-好用的壁纸库" class="headerlink" title="6.2 好用的壁纸库"></a>6.2 好用的壁纸库</h3><p><a target="_blank" rel="noopener" href="https://wallhaven.cc/">Awesome Wallpapers - wallhaven.cc</a></p>
+<h3 id="6-3-好用的favicon图标"><a href="#6-3-好用的favicon图标" class="headerlink" title="6.3 好用的favicon图标"></a>6.3 好用的favicon图标</h3><p><a target="_blank" rel="noopener" href="https://favicon.io/">The best Favicon Generator (completely free) - favicon.io</a></p>
+<h3 id="6-4-绑定腾讯云域名"><a href="#6-4-绑定腾讯云域名" class="headerlink" title="6.4 绑定腾讯云域名"></a>6.4 绑定腾讯云域名</h3><p>目前gitee自定义域名要收费，要开通gitee pages pro，所以这里只介绍了基于github的域名解析：</p>
+<ul>
+<li>买了域名后在腾讯云控制台域名解析处将信息填好，记录类型A那里的记录值通过ping自己要解析的网站得到IP填入即可</li>
+</ul>
+<p><img src="https://gitee.com/zhouzejiang/blogimage/raw/master/img/image-20220301175838855.png"></p>
+<ul>
+<li><p>之后在./主题配置文件所在目录/source下创建一个不带后缀的CNAME文件，里面填写你买的的域名</p>
+</li>
+<li><p>部署到github上后打开setting将域名填入custom domain</p>
+<p>  <img src="https://gitee.com/zhouzejiang/blogimage/raw/master/img/image-20220301180516848.png"></p>
+</li>
+<li><p>等到github pages更新后域名解析完毕</p>
+</li>
+</ul>
 
                 
             </div>
@@ -757,7 +793,7 @@ $ hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></
             contentSelector: '#articleContent',
             headingsOffset: -($(window).height() * 0.4 - 45),
             collapseDepth: Number('1'),
-            headingSelector: 'h1,h2, h3, h4'
+            headingSelector: 'h1,h2,h3,h4'
         });
 
         // modify the toc link href to support Chinese.
@@ -769,7 +805,7 @@ $ hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></
 
         // modify the heading title id to support Chinese.
         i = 0;
-        $('#articleContent').children('h1,h2, h3, h4').each(function () {
+        $('#articleContent').children('h1,h2,h3,h4').each(function () {
             $(this).attr('id', tocHeading + (++i));
         });
 
@@ -846,7 +882,7 @@ $ hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">545</span>&nbsp;字
+                class="white-color">1.4k</span>&nbsp;字
             
             
             
