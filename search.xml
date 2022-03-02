@@ -4,7 +4,7 @@
   
     
     <entry>
-      <title>Markdown语法</title>
+      <title>Markdown语法笔记</title>
       <link href="/2022/02/27/markdown/"/>
       <url>/2022/02/27/markdown/</url>
       
@@ -24,6 +24,8 @@
             
             <tag> picgo </tag>
             
+            <tag> typora </tag>
+            
         </tags>
       
     </entry>
@@ -31,7 +33,7 @@
     
     
     <entry>
-      <title>C++ 入门</title>
+      <title>C++语法笔记</title>
       <link href="/2022/02/25/C++/"/>
       <url>/2022/02/25/C++/</url>
       
@@ -73,6 +75,8 @@
             <tag> node.js </tag>
             
             <tag> github </tag>
+            
+            <tag> gitee </tag>
             
         </tags>
       
