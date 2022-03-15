@@ -6,7 +6,7 @@
   <link href="https://zhouzejiang.gitee.io/atom.xml" rel="self"/>
   
   <link href="https://zhouzejiang.gitee.io/"/>
-  <updated>2022-03-02T06:46:45.210Z</updated>
+  <updated>2022-03-11T09:29:53.755Z</updated>
   <id>https://zhouzejiang.gitee.io/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="https://zhouzejiang.gitee.io/2022/02/27/markdown/"/>
     <id>https://zhouzejiang.gitee.io/2022/02/27/markdown/</id>
     <published>2022-02-27T04:25:07.000Z</published>
-    <updated>2022-03-02T06:46:45.210Z</updated>
+    <updated>2022-03-11T09:29:53.755Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1.</summary>
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -46,19 +46,49 @@
   </entry>
   
   <entry>
+    <title>windows 常用软件</title>
+    <link href="https://zhouzejiang.gitee.io/2022/02/27/windows/"/>
+    <id>https://zhouzejiang.gitee.io/2022/02/27/windows/</id>
+    <published>2022-02-27T04:25:07.000Z</published>
+    <updated>2022-03-15T19:58:28.356Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;个人常用的一些电脑软件&lt;/p&gt;
+&lt;h2 id=&quot;软件&quot;&gt;&lt;a href=&quot;#软件&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="software" scheme="https://zhouzejiang.gitee.io/categories/software/"/>
+    
+    
+    <category term="windows10" scheme="https://zhouzejiang.gitee.io/tags/windows10/"/>
+    
+    <category term="windows11" scheme="https://zhouzejiang.gitee.io/tags/windows11/"/>
+    
+    <category term="software" scheme="https://zhouzejiang.gitee.io/tags/software/"/>
+    
+  </entry>
+  
+  <entry>
     <title>C++语法笔记</title>
     <link href="https://zhouzejiang.gitee.io/2022/02/25/C++/"/>
     <id>https://zhouzejiang.gitee.io/2022/02/25/C++/</id>
     <published>2022-02-25T11:13:13.000Z</published>
-    <updated>2022-03-11T07:44:37.171Z</updated>
+    <updated>2022-03-12T15:15:40.563Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;是一个整合C++相关书籍所学内容的C++笔记&lt;/p&gt;
-&lt;h2 id=&quot;2-C-基本语法&quot;&gt;&lt;a</summary>
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;是一个整合C++相关书籍以及学习网站所学内容的C++笔记&lt;/p&gt;
+&lt;h2 id=&quot;C-基本语法&quot;&gt;&lt;a href=&quot;#C-基本语法&quot;</summary>
         
       
     
@@ -82,14 +112,14 @@
     <link href="https://zhouzejiang.gitee.io/2022/02/25/hexo/"/>
     <id>https://zhouzejiang.gitee.io/2022/02/25/hexo/</id>
     <published>2022-02-24T16:00:00.000Z</published>
-    <updated>2022-03-09T16:08:40.684Z</updated>
+    <updated>2022-03-11T09:39:34.123Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;使用基于hexo框架的github pages/gitee</summary>
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;hexo官方文档：&lt;a href=&quot;https://hexo.io/zh-cn/docs/&quot;&gt;文档 |</summary>
         
       
     
